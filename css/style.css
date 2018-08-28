@@ -1,0 +1,42 @@
+
+
+.imagen{
+	height: 75vh;
+	opacity: 0.7;
+	z-index: -1000;
+}
+
+.bg-negro{
+	background: #393e46;
+}
+
+.bg-gris{
+	background: #232931;
+}
+
+.bg-verde{
+	background: #229954;
+}
+
+a, h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ir-arriba{
+    display: none;
+	padding: 20px;
+	font-size: 50px;
+	color: #1E8449;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 10000;
+}
+.ir-arriba:hover{
+	color: #239B56;
+}
